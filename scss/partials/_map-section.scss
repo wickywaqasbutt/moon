@@ -1,0 +1,76 @@
+.contact {
+    margin-top: 90px;
+    &__header {
+        text-align: center;
+        padding-bottom: 60px;
+        h2 {
+            color: $primary-color12;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 46px;
+            border-bottom: $primary-color3 solid 1px;
+            font-size: 50px;
+            max-width: 374px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    &__map-section {
+        border-top: $primary-color3 solid 6px;
+    }
+    &__main-form {
+        position: absolute;
+        z-index: 990;
+        background: $primary-color3;
+        margin-top: 80px;
+        padding: 60px 40px;
+    }
+    &__padding {
+        padding: 0px;
+    }
+}
+
+#map {
+    height: 100%;
+    min-height: 670px;
+}
+
+.form-control {
+    border: $primary-color10 solid 1px;
+    border-radius: inherit;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    font-family: poppins;
+    &:focus {
+        box-shadow: inherit;
+        border: $primary-color10 solid 1px !important;
+    }
+}
+
+.contact__textarea {
+    font-family: poppins;
+    border: $primary-color10 solid 2px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    padding-top: 0px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.contact__send {
+    font-family: poppins;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    background: $primary-color10;
+    color: $primary-color12;
+    max-width: 165px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    &:hover {
+        background: $primary-color4;
+        color: $primary-color10;
+    }
+}

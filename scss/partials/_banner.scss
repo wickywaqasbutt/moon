@@ -1,0 +1,92 @@
+.banner-main {
+    position: relative;
+    font-family: poppins;
+    .carousel-item {
+        img {
+            width: 100%;
+        }
+    }
+    .carousel-caption {
+        span {
+            font-size: 50px;
+            font-weight: bold;
+            line-height: 60px;
+            color: $primary-color5;
+            text-transform: uppercase;
+            padding-bottom: 10px;
+            display: block;
+        }
+        h1 {
+            color: $primary-color10;
+            font-size: 45px;
+            line-height: 84px;
+            font-weight: bold;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            margin: 0 !important;
+        }
+        p {
+            font-size: 25px;
+            line-height: 31px;
+            padding: 6px 0px 50px 0px;
+        }
+        .buynow {
+            border: $primary-color10 solid 1px;
+            background: $primary-color10;
+            width: 190px;
+            padding: 8px 0;
+            display: inline-block;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 30px;
+            color: $primary-color12;
+            text-align: center;
+            border-radius: 10px;
+            margin-right: 20px;
+            &:hover {
+                border: $primary-color3 solid 1px;
+                background: $primary-color3;
+                color: $primary-color10;
+            }
+        }
+    }
+}
+
+.carousel-indicators {
+    li {
+        width: 25px;
+        height: 25px;
+        border-radius: 15px;
+        background-color: $primary-color3;
+    }
+    .active {
+        background-color: $primary-color5;
+    }
+}
+
+#myCarousel {
+    .carousel-indicators {
+        li {
+            margin-bottom: 40px;
+        }
+    }
+    a.carousel-control-prev {
+        display: none;
+        position: absolute;
+        top: 40% !important;
+        left: 17px !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+    }
+    a.carousel-control-next {
+        display: none;
+        position: absolute;
+        top: 40% !important;
+        left: inherit !important;
+        right: 17px !important;
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+    }
+}

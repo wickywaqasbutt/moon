@@ -1,0 +1,82 @@
+.offer {
+    padding-top: 90px;
+    &__header {
+        text-align: center;
+        padding-bottom: 60px;
+        h2 {
+            padding: 0px 0px 6px 0px;
+            text-transform: uppercase;
+            font-weight: 500;
+            color: $primary-color12;
+            line-height: 46px;
+            border-bottom: $primary-color3 solid 1px;
+            font-size: 50px;
+            max-width: 374px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+    .offer__offer-bg {
+        background: $primary-color3;
+        text-align: center;
+        padding: 60px 0px;
+        .offer__offer-box {
+            text-align: center;
+            figure {
+                margin: 0;
+                img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                font-size: 30px;
+                font-weight: 500;
+                color: $primary-color10;
+                padding-bottom: 30px;
+            }
+            p {
+                padding-top: 35px;
+                font-size: 17px;
+                line-height: 23px;
+                color: $primary-color10;
+            }
+        }
+    }
+}
+
+.offer__offer-bg {
+    background: $primary-color3;
+    padding: 90px 0px;
+}
+
+.margin {
+    margin-bottom: 30px;
+}
+
+.read-more {
+    font-family: poppins;
+    max-width: 212px;
+    margin: 0 auto;
+    margin-top: 0px;
+    display: block;
+    background: $primary-color10;
+    color: $primary-color12 !important;
+    padding: 12px 0px;
+    width: 100%;
+    font-size: 17px;
+    float: left;
+    border-radius: 10px;
+    margin-top: -100px;
+    &:hover {
+        background: $primary-color4;
+        color: $primary-color10 !important;
+    }
+}
+
+.offer__margin-ttt {
+    margin-top: 100px;
+}
+
+.offer__margin-lkk {
+    margin-top: 200px;
+}

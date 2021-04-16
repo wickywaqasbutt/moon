@@ -1,0 +1,115 @@
+.clients {
+    background: $primary-color10;
+    &__header {
+        text-align: center;
+        padding-bottom: 60px;
+        h2 {
+            color: $primary-color12;
+            text-transform: uppercase;
+            font-weight: 500;
+            line-height: 46px;
+            border-bottom: $primary-color3 solid 1px;
+            font-size: 50px;
+            max-width: 374px;
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+}
+
+.clients-red {
+    background: $primary-color10;
+    padding-bottom: 50px;
+}
+
+.clients-red__cross-inner {
+    h3 {
+        text-align: left;
+        padding-left: 60px;
+        padding-top: 58px;
+        font-size: 30px;
+        line-height: 25px;
+        padding-bottom: 58px;
+        text-transform: uppercase;
+    }
+}
+
+.clients-red__pa-right {
+    padding-right: 0px;
+}
+
+.clients-red__pa-left {
+    padding-left: 0px;
+}
+
+.clients-red__full {
+    float: left;
+    width: 100%;
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.clients-red__testimonial-cont {
+    p {
+        color: $primary-color10;
+        background: $primary-color3;
+        padding: 40px 50px;
+    }
+    min-height: 295px;
+}
+
+#testimonial_slider {
+    .carousel-indicators {
+        bottom: -50px;
+        li {
+            width: 25px;
+            height: 25px;
+            background-color: $primary-color3;
+            border-radius: 50px;
+        }
+        li.active {
+            background-color: $primary-color5;
+        }
+    }
+}
+
+.clients-red__text {
+    text-align: center;
+}
+
+.clients-red__ornage-color {
+    color: $primary-color5;
+    text-transform: none;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.clients-red__testomonial-img {
+    position: relative;
+    &:after {
+        position: absolute;
+        content: "";
+        background: url(../images/bg1.png);
+        background-repeat: no-repeat;
+        width: 61px;
+        height: 61px;
+        right: 0px;
+        bottom: -61px;
+        z-index: 9999;
+    }
+    i {
+        img {
+            border: $primary-color5 solid 13px;
+            width: 100%;
+        }
+    }
+}
+
+.clients-red__testimonial-cont {
+    h3 {
+        color: $primary-color12;
+        font-family: poppins;
+    }
+}
